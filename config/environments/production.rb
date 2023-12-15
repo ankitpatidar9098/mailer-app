@@ -95,6 +95,6 @@ Rails.application.configure do
     :password => 'ertobucznlzzjxze',
     :authentication => 'plain',
     :enable_starttls_auto => true
-  # Do not dump schema after migrations.
+},
   config.active_record.dump_schema_after_migration = false
 end
