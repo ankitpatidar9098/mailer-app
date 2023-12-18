@@ -70,10 +70,9 @@ Rails.application.configure do
     :password => 'ertobucznlzzjxze',
     :authentication => 'plain',
     :enable_starttls_auto => true,
-    :open_timeout => 10, # Set a higher timeout value in seconds
-  :read_timeout => 10
-}
-
+   :open_timeout => 60,
+   :read_timeout => 60
+  }
   # Raises error for missing translations.
   # config.i18n.raise_on_missing_translations = true
 

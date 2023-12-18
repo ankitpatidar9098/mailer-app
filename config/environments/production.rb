@@ -94,7 +94,9 @@ Rails.application.configure do
     :user_name => 'ankit.patidar@preciousinfosystem.com',
     :password => 'ertobucznlzzjxze',
     :authentication => 'plain',
-    :enable_starttls_auto => true
+    :enable_starttls_auto => true,
+    :open_timeout => 60, 
+    :read_timeout => 60
 },
   config.active_record.dump_schema_after_migration = false
 end
